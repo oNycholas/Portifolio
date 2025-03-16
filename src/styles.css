@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #09C2F8;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav { 
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li { 
+    margin: 0 15px; 
+}
+
+nav ul li a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+nav ul li a:hover{ 
+    text-decoration: beige; 
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+img{
+    border-radius: 100px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #09C2F8;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:hover {
+    background-color: #f1f1f1;
+}
+
+aside {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h1 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #09C2F8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #09C2F8;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

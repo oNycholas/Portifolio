@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <section id="inicio">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <picture>
+            <source media="(mix-width: 500px)" srcset="src/images/TORO.jpeg" type="image/jpeg">
+            <source media="(max-width: 800px)" srcset="src/images/TORO.jpeg" type="image/jpeg">
+            <img src="src/images/TORO.jpeg" alt="Foto">
+        </picture>
+        <section id="sobre">
+            <h1>Oi, eu sou o <span>Nycholas!</span></h1>
+            <h2>Desenvolvedor Back-end</h2>
+            <p>Sou, por enquanto, desenvolvedor web, mas tenho muito interesse em programação back-end! Atualmente estou estudando <strong>HTML, CSS e JavaScript</strong> e pretendo me aprofundar ainda mais em <strong>Javascript</strong> e <strong>Java</strong>!</p>
+
+        </section>
+    </main>
+        <section id= "tecnologias">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Tecnologia
+                        </th>
+                        <th>
+                            Definição
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            HTML
+                        </td>
+                        <td>
+                            HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            CSS
+                        </td>
+                        <td>
+                            CSS é uma linguagem de estilo utilizada na construção de páginas na Web.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            JavaScript
+                        </td>
+                        <td>
+                            JavaScript é uma linguagem de programação utilizada na construção de páginas na Web.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Java
+                        </td>
+                        <td>
+                            Java é uma linguagem de programação utilizada na construção de sistemas e aplicações.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <aside>
+            <section id="contato">
+                <h1>Entre em contato</h1>
+                <fieldset>
+                    <form action="#">
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </form>
+                </fieldset>
+            </aside>
+            </section>
+    <footer>
+        Site feito por &copy;Nycholas.
+    </footer>
+</body>
+</html>
