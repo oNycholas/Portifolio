@@ -22,10 +22,10 @@ header {
 @media (max-width: 500px) {
     header {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-self: center;
         align-items: center;
         text-align: center;
-        padding: 10px 20px;
     }
 }
 
